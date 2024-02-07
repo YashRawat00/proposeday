@@ -94,7 +94,7 @@ function drawText() {
       canvas.width / 2,
       canvas.height / 2
     );
-    opacity = opacity + 0.01;
+    opacity = opacity + 0.03;
   }
   //fades out the text by decreasing the opacity
   if (frameNumber >= 300 && frameNumber < 600) {
@@ -104,7 +104,7 @@ function drawText() {
       canvas.width / 2,
       canvas.height / 2
     );
-    opacity = opacity - 0.01;
+    opacity = opacity - 0.02;
   }
 
   //needs this if statement to reset the opacity before next statement on canvas
@@ -130,7 +130,7 @@ function drawText() {
       );
     }
 
-    opacity = opacity + 0.01;
+    opacity = opacity + 0.03;
   }
   if (frameNumber >= 900 && frameNumber < 1200) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
@@ -151,7 +151,7 @@ function drawText() {
       );
     }
 
-    opacity = opacity - 0.01;
+    opacity = opacity - 0.03;
   }
 
   if (frameNumber == 1200) {
@@ -173,7 +173,7 @@ function drawText() {
       canvas.width / 2,
       canvas.height / 2
     );
-    opacity = opacity - 0.01;
+    opacity = opacity - 0.03;
   }
 
   if (frameNumber == 1800) {
@@ -186,7 +186,7 @@ function drawText() {
       canvas.width / 2,
       canvas.height / 2
     );
-    opacity = opacity + 0.01;
+    opacity = opacity + 0.03;
   }
   if (frameNumber >= 2100 && frameNumber < 2400) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
@@ -195,7 +195,7 @@ function drawText() {
       canvas.width / 2,
       canvas.height / 2
     );
-    opacity = opacity - 0.01;
+    opacity = opacity - 0.03;
   }
 
   if (frameNumber == 2400) {
@@ -223,7 +223,7 @@ function drawText() {
       );
     }
 
-    opacity = opacity + 0.01;
+    opacity = opacity + 0.03;
   }
   if (frameNumber >= 2700 && frameNumber < 3000) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
@@ -247,7 +247,7 @@ function drawText() {
       );
     }
 
-    opacity = opacity - 0.01;
+    opacity = opacity - 0.03;
   }
 
   if (frameNumber == 3000) {
@@ -275,7 +275,7 @@ function drawText() {
       );
     }
 
-    opacity = opacity + 0.01;
+    opacity = opacity + 0.03;
   }
 
   if (frameNumber >= 3300 && frameNumber < 99999) {
@@ -300,7 +300,7 @@ function drawText() {
       );
     }
 
-    secondOpacity = secondOpacity + 0.01;
+    secondOpacity = secondOpacity + 0.03;
   }
 
   if (frameNumber >= 3600 && frameNumber < 99999) {
