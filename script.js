@@ -94,7 +94,7 @@ function drawText() {
       canvas.width / 2,
       canvas.height / 2
     );
-    opacity = opacity + 0.01;
+    opacity = opacity + 0.0001;
   }
   //fades out the text by decreasing the opacity
   if (frameNumber >= 300 && frameNumber < 600) {
@@ -104,7 +104,7 @@ function drawText() {
       canvas.width / 2,
       canvas.height / 2
     );
-    opacity = opacity - 0.01;
+    opacity = opacity - 0.0001;
   }
 
   //needs this if statement to reset the opacity before next statement on canvas
