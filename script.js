@@ -12,7 +12,7 @@ function drawText() {
       canvas.width / 2,
       canvas.height / 2
     );
-    opacity += 0.05; // Increase opacity faster
+    opacity += 1; // Increase opacity faster
   } else if (frameNumber >= 300 && frameNumber < 600) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
@@ -20,7 +20,7 @@ function drawText() {
       canvas.width / 2,
       canvas.height / 2
     );
-    opacity -= 0.05; // Decrease opacity faster
+    opacity -= 0.1; // Decrease opacity faster
   } else if (frameNumber >= 600 && frameNumber < 900) {
     // Reset opacity before next statement on canvas
     opacity = 0;
